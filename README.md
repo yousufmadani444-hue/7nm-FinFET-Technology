@@ -4,16 +4,18 @@ This repository provides a clear and concise explanation of **7 nm FinFET (Fin F
 
 ---
 
-## Table of Contents
-1. [Introduction](#Introduction)
+## 📘 Table of Contents
+1. [Introduction](#introduction)
 2. [Why Did We Start Using FinFETs?](#why-did-we-start-using-finfets)
 3. [Structure of FinFET](#structure-of-finfet)
-4. [Fabrication Process Overview](#fabrication-process-overview)
-5. [Advantages of FinFET Technology](#advantages-of-finfet-technology)
-6. [Challenges in 7nm Node](#challenges-in-7nm-node)
-7. [Comparison: Planar vs FinFET](#comparison-planar-vs-finfet)
-8. [References](#references)
-
+4. [FinFET Physical Parameters and Equations](#finfet-physical-parameters-and-equations)
+5. [Fabrication Process Overview](#fabrication-process-overview)
+6. [Advantages of FinFET Technology](#advantages-of-finfet-technology)
+7. [Challenges in 7nm Node](#challenges-in-7nm-node)
+8. [FinFET Physical Parameters and Electrical Equations](#finfet-physical-parameters-and-electrical-equations)
+9. [Comparison: Planar vs FinFET](#comparison-planar-vs-finfet)
+10. [References](#references)
+    
 ---
 
 ## Introduction
@@ -35,5 +37,26 @@ The above discussed is one of the major short channel effect and is widely calle
 In the case of plannar mos we had the gate only on the top of the channel which lead to DIBL and many other problem(majorly leakage of current), now in the case of finfet we the gate wrapped around the channel on three sides(top,right,left) which leads to:  
 Stronger electrostatic control of the channel.  
 The drain’s field can’t easily penetrate to the source.  
-The barrier remains high when off, leakage current drops drastically.
+The barrier remains high when off, leakage current drops drastically.  
+
+## Structure of Finfet:  
+A FinFET is a type of 3D MOSFET where the channel is a thin vertical “fin” of silicon instead of a flat horizontal layer.  
+The gate wraps around the fin on three sides: top + both sidewalls.  
+This gives much stronger electrostatic control of the channel potential compared to planar MOSFETs.  
+It’s called “FinFET” because the vertical channel looks like a fin under the gate.  
+The point to remember is that the principle is same as plannar mosfet, the only difference is that the fin structure which gives better gate control.  
+Let’s look at how an nMOS and pMOS FinFET are structured:  
+In an nMOS FinFET:  
+The source and drain are heavily n-type doped (to supply electrons).  
+The channel (fin) is made of p-type silicon, so that when a positive gate voltage is applied, electrons are attracted to form an inversion layer in the p-type fin.  
+This inversion layer is what actually conducts current from source to drain.  
+Similarly, for a pMOS FinFET:  
+Source and drain are p-type, and the channel is n-type.  
+A negative gate voltage creates a hole inversion layer to conduct current.  
+
+## FinFET Physical Parameters and Equations: 
+
+
+
+
 

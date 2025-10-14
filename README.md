@@ -23,7 +23,7 @@ As semiconductor devices continued to scale beyond the limits of planar CMOS tec
 
 ## Why Did We Start Using FinFETs?
 This becomes more important that why did finfet come into existence, what were the challenges in plannar mosfet. So now let us the challnges of plannar mosfets:
-In normal plannar mosfet: 
+In normal plannar mosfet:  
 The source has electrons (in an nMOS).
 The drain is at a higher voltage.
 The gate controls whether electrons can flow from source → drain by forming or removing a conductive channel in the silicon under the gate.

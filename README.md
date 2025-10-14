@@ -53,6 +53,8 @@ This inversion layer is what actually conducts current from source to drain.
 Similarly, for a pMOS FinFET:  
 Source and drain are p-type, and the channel is n-type.  
 A negative gate voltage creates a hole inversion layer to conduct current.  
+<img width="800" height="647" alt="image" src="https://github.com/user-attachments/assets/c58b9a65-4074-44a7-8ca2-4bd087077ecd" />
+
 
 ## FinFET Physical Parameters and Equations: 
 

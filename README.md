@@ -26,12 +26,13 @@ This becomes even more important — why did FinFET come into existence, and wha
 So now, let us look at the challenges of planar MOSFETs:
 
 In a normal planar MOSFET:
-
+.
 The source has electrons (in an nMOS).
 
 The drain is at a higher voltage.
 
 The gate controls whether electrons can flow from source drain by forming or removing a conductive channel in the silicon under the gate.  
-Now when the Vgs<Vth the gate voltage will repel the electrons and pull the holes up, forming a depletion region that's the barrier blocking the electrons.  
-This leads the mosfet to turn off and current will be 0, but now in the case of shorter channel the drain and source come close to each other and this leads to loss of control of the gate terminal.  
+Now when the Vgs<Vth the gate voltage will repel the electrons and pull the holes up, forming a depletion region that's the barrier blocking the electrons. This leads the mosfet to turn off and current will be zero, as the technology increases the channel length decreases for the sake of faster switching and many other reasons but when the channel length decreases the source and drain come close to each other this leads to many problems, the major problem being the electric field spreading.  
+Electric field spreading: In case of NMOS the drain has positive voltage, which means that the positive electric field extending from drain to channel, but when the channel is long the field dies before reaching the source, so the barrier is only controlled by the gate, but in the case of short channel the drain's electric field penetrates deep into the channel and overlap's the source causing the formation of channel due to the drain's positive voltage leading to the flow of current called as the leakage current even when the gate is trying to off the transistor.  
+The above discussed is one of the major short channel effect and is widely called as **Drain Induced Barrier Lowering(DIBL)**.
 

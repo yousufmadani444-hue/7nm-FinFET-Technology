@@ -21,5 +21,5 @@ As semiconductor devices continued to scale beyond the limits of planar CMOS tec
 
 ---
 
-## ⚡ Why Did We Start Using FinFETs?
+## Why Did We Start Using FinFETs?
 

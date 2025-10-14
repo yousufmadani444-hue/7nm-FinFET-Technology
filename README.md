@@ -31,4 +31,7 @@ The source has electrons (in an nMOS).
 
 The drain is at a higher voltage.
 
-The gate controls whether electrons can flow from source → drain by forming or removing a conductive channel in the silicon under the gate.
+The gate controls whether electrons can flow from source drain by forming or removing a conductive channel in the silicon under the gate.  
+Now when the Vgs<Vth the gate voltage will repel the electrons and pull the holes up, forming a depletion region that's the barrier blocking the electrons.  
+This leads the mosfet to turn off and current will be 0, but now in the case of shorter channel the drain and source come close to each other and this leads to loss of control of the gate terminal.  
+

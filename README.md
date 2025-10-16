@@ -67,7 +67,8 @@ Finfet being a 3D structure we should be clear with the dimensions that define t
 In the above mentioned structural dimensions **channel lenght, fin height, fin thickness, and oxide thickness** become the important geometrical knobs of how tightly the gate can control the channel.  
 **Effective Channel Width:**  
 $$W_{eff} = 2H_{fin} + W_{fin}$$  
-The effective channel width represents the total area of the fin that is controlled by the gate. As we know that the gate wrap arounds around the fin now therefore increasing the effective width that is either increasing the height or number of fins can lead to greater gate control and increase the drive current, current is directly proportional to the effective width of the finfet. Current in the case of finfet flows along the top and both sidewalls. Now for a single finfet there can be more than one fin increasing the current then the effective width becomes, $$W_{total} = N \times W_{eff} = N \times (2 H_{fin} + W_{fin})$$
+The effective channel width represents the total area of the fin that is controlled by the gate. As we know that the gate wrap arounds around the fin now therefore increasing the effective width that is either increasing the height or number of fins can lead to greater gate control and increase the drive current, current is directly proportional to the effective width of the finfet. Current in the case of finfet flows along the top and both sidewalls. Now for a single finfet there can be more than one fin increasing the current then the effective width becomes, $$W_{total} = N \times W_{eff} = N \times (2 H_{fin} + W_{fin})$$  
+This shows that by adding more fins, the total width can be increased **without increasing the footprint** of the transistor, As a result, FinFETs can provide **more current per unit area** compared to planar MOSFETs, while maintaining strong gate control and reducing short-channel effects.
 
 
 

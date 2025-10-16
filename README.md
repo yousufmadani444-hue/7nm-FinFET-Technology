@@ -66,7 +66,8 @@ Finfet being a 3D structure we should be clear with the dimensions that define t
 
 In the above mentioned structural dimensions **channel lenght, fin height, fin thickness, and oxide thickness** become the important geometrical knobs of how tightly the gate can control the channel.  
 **Effective Channel Width:**  
-$$W_{eff} = 2H_{fin} + W_{fin}$$
+$$W_{eff} = 2H_{fin} + W_{fin}$$  
+The effective channel width represents the total area of the fin that is controlled by the gate. 
 
 
 

@@ -63,6 +63,7 @@ Finfet being a 3D structure we should be clear with the dimensions that define t
 3. Gate length(Lg) - Channel length.
 4. Number of fins(Nfin) - Multi fins one finfet with a single gate control increasing the total drive current.
 5. Oxide thickness(Tox) - Determines the gate capacitance and controls the strength.
+6. 
    In the above mentioned structural dimensions **channel lenght, fin height, fin thickness, and oxide thickness** become the important geometrical knobs of how tightly the gate can control the channel.
 
 

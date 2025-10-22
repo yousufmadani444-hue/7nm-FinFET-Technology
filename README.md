@@ -74,10 +74,14 @@ This shows that by adding more fins, the total width can be increased **without 
 **Oxide Capacitance:**  
 In case of plannar mosfet the gate capacitance per unit area is $$C_{ox} = \frac{\varepsilon_{ox}}{T_{ox}}$$  
 Where:
-- εox → Permittivity of the oxide layer  
+- εox → Permittivity of the oxide layer.
 - Tox → Thickness of the oxide layer.
+- Here, basically what Cox tells is capacitance per unit area of gate oxide that is how much charge can be stored in a tiny square of gate area, in the case of plannar mosfet the gate is only present on the top surface of channel so the charge accumulated is lesser compared to a finfet where the gate has more area covered of the channel.
   
-The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L
+The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L.  
+This tell how much charge the gate capacitance can hold per unit voltage.  
+
+But in the case of finfets the gate capacitance is defined as follows
 
 
 

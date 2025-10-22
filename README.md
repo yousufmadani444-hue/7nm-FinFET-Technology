@@ -106,7 +106,8 @@ Where:
 - **C<sub>ox,eff</sub>** → Effective gate capacitance (stronger control due to gate wrapping around the fin)  
 - **W<sub>eff</sub>** → Effective channel width (depends on fin height and number of fins)  
 - **L** → Channel length  
-- **V<sub>GS</sub> − V<sub>th</sub>** → Gate voltage above threshold  
+- **V<sub>GS</sub> − V<sub>th</sub>** → Gate voltage above threshold.
+In the case of finfet the Cox and Weff increase the current, due to gate wrapping a larger area of the channel which leads to more drive current per unit area than plannar mosfet.
 
 
 

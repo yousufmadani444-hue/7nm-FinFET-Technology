@@ -75,7 +75,8 @@ This shows that by adding more fins, the total width can be increased **without 
 In case of plannar mosfet the gate capacitance per unit area is $$C_{ox} = \frac{\varepsilon_{ox}}{T_{ox}}$$  
 Where:
 - εox → Permittivity of the oxide layer  
-- Tox → Thickness of the oxide layer
+- Tox → Thickness of the oxide layer.
+  
   The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L
 
 

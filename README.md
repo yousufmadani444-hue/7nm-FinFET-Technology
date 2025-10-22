@@ -78,14 +78,35 @@ Where:
 - Tox → Thickness of the oxide layer.
 - Here, basically what Cox tells is capacitance per unit area of gate oxide that is how much charge can be stored in a tiny square of gate area, in the case of plannar mosfet the gate is only present on the top surface of channel so the charge accumulated is lesser compared to a finfet where the gate has more area covered of the channel.
   
-The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L.  
+The total gate capacitance is given by the total area times the gate capacitance per unit area that is  
+Ctotal ​= Cox​ × W × L.  
 This tell how much charge the gate capacitance can hold per unit voltage.  
 
 But in the case of finfets the gate capacitance is defined as follows  
-The total gate capacitance is the capacitance per unit area times the total area of the gate that is Weff ​= 2Hfin ​+ Wfin​, Coxeff ​= Cox ​× Weff​  
-From the above formula we can conclude that the effective capacitance is more which leads to more control over the channel charge, hence better gate control and more drive current with shorter channel. And in case of multi fins the gate capacitance can be given by Ctotal = N × Coxeff ​× L where N is the number of fin.  
+The total gate capacitance is the capacitance per unit area times the total area of the gate that is  
+Weff ​= 2Hfin ​+ Wfin​, Coxeff ​= Cox ​× Weff​  
+From the above formula we can conclude that the effective capacitance is more which leads to more control over the channel charge, hence better gate control and more drive current with shorter channel. And in case of multi fins the gate capacitance can be given by   
+Ctotal = N × Coxeff ​× L where N is the number of fin.  
 
 **Threshold Voltage:**  
+The voltage below which the transistor is off and when the Vgs is greater than or equal to the threshold voltage Vth the inversion layer is formed leading to the flow of current.  
+In an nMOS FinFET (or planar nMOS):  
+The substrate (or fin) is p-type — it has holes.  
+The gate has to attract electrons to the surface to form a conductive path (inversion layer).  
+But before electrons can gather, the gate voltage must first:  
+Cancel the charge in the depletion region, and then pull in enough electrons to invert the surface to n-type. That total required voltage is what we call Vth.  
+Basically what we can say is that the concept of the threshold voltage remains the same in plannar and finfet, the difference is FinFETs achieve the threshold condition more efficiently because the gate wraps around the channel and has stronger control.  
+
+**Drain Current:**  
+In the saturation region, the drain current of a FinFET is similar to a MOSFET:
+
+$$I_D = \frac{1}{2} \mu_n C_{ox,eff} \frac{W_{eff}}{L} (V_{GS} - V_{th})^2$$  
+Where:  
+- **μ<sub>n</sub>** → Electron mobility  
+- **C<sub>ox,eff</sub>** → Effective gate capacitance (stronger control due to gate wrapping around the fin)  
+- **W<sub>eff</sub>** → Effective channel width (depends on fin height and number of fins)  
+- **L** → Channel length  
+- **V<sub>GS</sub> − V<sub>th</sub>** → Gate voltage above threshold  
 
 
 

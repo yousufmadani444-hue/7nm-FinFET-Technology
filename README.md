@@ -65,6 +65,7 @@ Finfet being a 3D structure we should be clear with the dimensions that define t
 5. Oxide thickness(Tox) - Determines the gate capacitance and controls the strength.  
 
 In the above mentioned structural dimensions **channel lenght, fin height, fin thickness, and oxide thickness** become the important geometrical knobs of how tightly the gate can control the channel.  
+
 **Effective Channel Width:**  
 $$W_{eff} = 2H_{fin} + W_{fin}$$  
 The effective channel width represents the total area of the fin that is controlled by the gate. As we know that the gate wrap arounds around the fin now therefore increasing the effective width that is either increasing the height or number of fins can lead to greater gate control and increase the drive current, current is directly proportional to the effective width of the finfet. Current in the case of finfet flows along the top and both sidewalls. Now for a single finfet there can be more than one fin increasing the current then the effective width becomes, $$W_{total} = N \times W_{eff} = N \times (2 H_{fin} + W_{fin})$$  
@@ -75,6 +76,7 @@ In case of plannar mosfet the gate capacitance per unit area is $$C_{ox} = \frac
 Where:
 - εox → Permittivity of the oxide layer  
 - Tox → Thickness of the oxide layer
+  The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L
 
 
 

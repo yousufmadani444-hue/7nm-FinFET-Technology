@@ -81,7 +81,12 @@ Where:
 The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L.  
 This tell how much charge the gate capacitance can hold per unit voltage.  
 
-But in the case of finfets the gate capacitance is defined as follows
+But in the case of finfets the gate capacitance is defined as follows  
+The total gate capacitance is the capacitance per unit area times the total area of the gate that is Weff ​= 2Hfin ​+ Wfin​, Coxeff ​= Cox ​× Weff​  
+From the above formula we can conclude that the effective capacitance is more which leads to more control over the channel charge, hence better gate control and more drive current with shorter channel. And in case of multi fins the gate capacitance can be given by Ctotal = N × Coxeff ​× L where N is the number of fin.  
+
+**Threshold Voltage:**  
+
 
 
 

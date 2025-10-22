@@ -4,7 +4,7 @@ This repository provides a clear and concise explanation of **7 nm FinFET (Fin F
 
 ---
 
-## 📘 Table of Contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Why Did We Start Using FinFETs?](#why-did-we-start-using-finfets)
 3. [Structure of FinFET](#structure-of-finfet)
@@ -77,7 +77,7 @@ Where:
 - εox → Permittivity of the oxide layer  
 - Tox → Thickness of the oxide layer.
   
-  The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L
+The total gate capacitance is given by the total area times the gate capacitance per unit area that is Ctotal ​= Cox​ × W × L
 
 
 

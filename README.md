@@ -9,15 +9,8 @@ This repository provides a clear and concise explanation of **7 nm FinFET (Fin F
 2. [Why Did We Start Using FinFETs?](#why-did-we-start-using-finfets)
 3. [Structure of FinFET](#structure-of-finfet)
 4. [FinFET Physical Parameters and Equations](#finfet-physical-parameters-and-equations)
-5. [Fabrication Process Overview](#fabrication-process-overview)
-6. [Advantages of FinFET Technology](#advantages-of-finfet-technology)
-7. [Challenges in 7nm Node](#challenges-in-7nm-node)
-8. [FinFET Physical Parameters and Electrical Equations](#finfet-physical-parameters-and-electrical-equations)
-9. [Comparison: Planar vs FinFET](#comparison-planar-vs-finfet)
-10. [References](#references)
-    
----
-
+5. [Inverter Characteristics](#inverter-characteristics)
+   
 ## Introduction
 As semiconductor devices continued to scale beyond the limits of planar CMOS technology, maintaining performance and controlling leakage became increasingly difficult. FinFETs emerged as a **3D transistor design** that enabled further scaling into the **7 nm and beyond** technology nodes.
 

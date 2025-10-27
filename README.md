@@ -102,6 +102,11 @@ Where:
 - **V<sub>GS</sub> − V<sub>th</sub>** → Gate voltage above threshold.
 In the case of finfet the Cox and Weff increase the current, due to gate wrapping a larger area of the channel which leads to more drive current per unit area than plannar mosfet.
 
+## Inverter Characteristics:  
+
+
+
+
 
 
 
